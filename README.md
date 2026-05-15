@@ -52,6 +52,25 @@ The Rest Timer is implemented as a **Foreground Service**. This ensures the coun
 
 ---
 
+## Developer Setup
+
+To maintain professional project history and technical rigor, this repository uses **Husky** and **commitlint** to enforce the [Conventional Commits](docs/commit/README.md) specification.
+
+### Prerequisites
+
+* **Node.js (LTS):** Required to run the local commit validation hooks.
+* **Android Studio:** For core Java development.
+
+### Initializing the Workspace
+
+After cloning the repository, run the following command in the root directory. This installs the necessary development tools and automatically wires the Git hooks to your local machine:
+
+```bash
+npm install
+```
+
+>Note: `npm` (and other package managers like `yarn`) has a set of reserved script names called Lifecycle Hooks. When you run a major command like install, `npm` is programmed to look for specific "trigger points". This includes the `prepare` npm script. `npm` chose the name `prepare` for tasks that "prepare the package for use."
+
 ## Tech Stack
 
 * **Language:** Java

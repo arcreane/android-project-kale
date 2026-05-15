@@ -1,0 +1,22 @@
+{
+  "name": "kinedex",
+  "version": "1.0.0",
+  "description": "Kinedex Android Project",
+  "type": "module",
+  "directories": {
+    "doc": "docs"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^21.0.1",
+    "@commitlint/config-conventional": "^21.0.1",
+    "husky": "^9.1.7"
+  },
+  "scripts": {
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arcreane/android-project-kale.git"
+  },
+  "license": "ISC"
+}
