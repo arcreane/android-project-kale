@@ -1,6 +1,6 @@
 # Husky & commitlint
 
-This project uses `Husky` and `commitlint` to enforce [Conventional Commits](https://github.com/arcreane/android-project-kale/blob/main/docs/COMMIT_CONVENTION.md) to maintain a professional R&D history and enable automated changelog generation.
+This project uses `Husky` and `commitlint` to enforce [Conventional Commits](https://github.com/arcreane/android-project-kale/blob/main/docs/commit/COMMIT_CONVENTION.md) to maintain a professional R&D history and enable automated changelog generation.
 
 ## Enforcement Layers
 
